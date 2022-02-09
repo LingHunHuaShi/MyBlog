@@ -114,3 +114,23 @@ p{
 .passage .content .text-small a:hover{
     color:#ffffff;
 }
+#main-footer{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+}
+#main-footer .fa{
+    color:white;
+}
+#main-footer .logobox{
+    float: left;
+    width:50%;
+    padding:10px;
+}
+.github{
+    float:right;
+}
+.qq{
+    float:left;
+}

@@ -134,3 +134,26 @@ p{
 .qq{
     float:left;
 }
+.musicControl{
+    background-color: #333333;
+}
+.btnBox{
+    background-color: #333333;
+    max-width: 768px;
+    margin: 0 auto;
+    height: 60px;
+}
+.btnBox .Btn{
+    width:40px;
+    height:40px;
+    background-color: #666666;
+    margin:5px auto;
+    float:left;
+    border-width: 2px;
+    border-color:#333333;
+}
+.btnBox h4{
+    line-height: 40px;
+    color: white;
+    height: 40px;
+}

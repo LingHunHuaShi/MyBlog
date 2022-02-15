@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/font-awesome.css">
     <title>zzh的主页|收藏</title>
+    <script src="/JS/script.js"></script>
 </head>
 <body>
 <header>
@@ -24,6 +25,18 @@
         </div>
     </nav>
 </header>
+<div class="musicControl">
+    <audio id="audio_bgm">
+        <source src="/audio/C418%20-%20Subwoofer%20Lullaby.mp3" type="audio/mpeg">
+        <source src="/audio/C418%20-%20Subwoofer%20Lullaby.mp3" type="audio/ogg">
+    </audio>
+    <div class="btnBox">
+        <button class="Btn" id="start" onclick="start()"><i class="fa fa-play"></i></button>
+        <button class="Btn" id="pause" onclick="pause()"><i class="fa fa-pause"></i></button>
+        <h4>C418 - Subwoofer Lullaby</h4>
+    </div>
+
+</div>
 <div id="showcase">
     <div class="container">
         <div class="showcase-content">
